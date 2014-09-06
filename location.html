@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Calahonda Sea view Apartment
+        </title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+Ê Ê <script>
+Ê Ê Ê function initialize() {
+Ê Ê Ê Ê var map_canvas = document.getElementById('map_canvas');
+Ê Ê Ê Ê var map_options = {
+Ê Ê Ê Ê Ê center: new google.maps.LatLng(44.5403, -78.5463),
+Ê Ê Ê Ê Ê zoom: 8,
+Ê Ê Ê Ê Ê mapTypeId: google.maps.MapTypeId.ROADMAP
+Ê Ê Ê Ê }
+Ê Ê Ê Ê var map = new google.maps.Map(map_canvas, map_options)
+Ê Ê Ê }
+Ê Ê Ê google.maps.event.addDomListener(window, 'load', initialize);
+Ê Ê </script>
+
+    </head>
+    <body>
+         <h1>
+            Calahonda
+         </h1>
+         <h2>
+            Fabulous 3 Bedroom Apartment with spectacular sea views
+         </h2>
+         <hr/>
+         <div id='menu'>
+                    <ul>
+                        <li><a href='index.html'><span>Home</span></a></li>
+                        <li><a href='info.html'><span>Info</span></a></li>
+                        <li><a href='photos.html'><span>Photos</span></a></li>
+                        <li><a href='prices.html'><span>Prices</span></a></li>
+                    </ul>
+        </div>
+        
+        <div id="map_canvas"></div>
+        
+    </body>
+</html>

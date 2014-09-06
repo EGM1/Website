@@ -1,0 +1,98 @@
+#text { position: absolute; width: 500px; visibility: visible; margin-top: 10px; }
+
+#menu ul {
+        height: 33px;
+	position: inherit;
+        left: 500px;
+	font: bolder 1.3em 'Tangerine', cursive;
+	list-style: none;
+	margin: 0; padding: 0;		
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: white;
+	background-color: darkblue;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
+#menu li a:hover {
+	background: lightgreen;
+	color: white;
+}
+#menu li a#current  {
+	background: #darkred;
+	color: red;
+}
+
+#map_canvas {
+Ê Ê Ê Ê width: 500px;
+Ê Ê Ê Ê height: 400px;
+Ê Ê Ê }
+
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.next{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    width: 100px;
+    font-family: 'Tangerine',cursive;
+    font-size: large;
+    color: darkblue;
+}
+
+.backto {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 100px;
+    font-family: 'Tangerine',cursive;
+    font-size: large;
+    color: darkblue;
+}
+
+.back{
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    width: 100px;
+    font-family: 'Tangerine',cursive;
+    font-size: large;
+    color: darkblue;
+}
+
+body { 
+    color: black;
+    text-align:center;
+    background: lightblue;
+}
+
+h1{
+    font-family: 'Tangerine', cursive;
+    text-align:center;
+}
+
+h2{
+    font-family: 'Tangerine', cursive;
+    text-align:center;
+}
+
+h4 { font-family: 'Tangerine' ,cursive;
+    text-align:center; 
+}
+
+table {
+    border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;   
+    text-align:center; 
+}
+
